@@ -17,10 +17,12 @@
 }
 
 .jumbotron {
-    padding: 70px 30px 70px 30px;
+    padding: 20px 10px 10px 10px;
     margin: 0px auto;
-    background: #9575cd;
-    color: floralwhite
+    background: rgb(44,27,202);
+    color: floralwhite;
+    font-family: Arizonia, Helvetica, sans-serif;
+    
 }
 
 
@@ -28,4 +30,46 @@
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
+}
+
+.background {
+    /* background-color: rgb(44,27,202); */
+    /* background-color: rgba(203, 233, 255, 0.716); */
+    background-color: #F5F5F5;
+}
+
+.desc-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.desc-background {
+    background-color:  rgba(255, 255, 255, 0.716);
+
+}
+
+.desc-text {
+    color: black;
+    padding-top: 20px;
+    font-size: 17px;
+    /* background-color:  rgba(255, 255, 255, 0.716);; */
+}
+
+.download-link {
+    padding-top: 50px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    color: rgb(44,27,202);
+
+
+}
+
+.image {
+    padding-bottom: 15px;
+    /* border-radius: 60px; */
+}
+
+.privacy-text {
+    padding-top: 200px;
+    font-size: 15px;
 }
